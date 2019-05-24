@@ -35,9 +35,12 @@ int main() {
 	int i=10;
 	int ii=20;
 	int iii=30;
+	int iiii=40;
     st.push(i);
     st.push(ii);
     st.push(iii);
+    st.pop();
+    st.push(iiii);
     while (!st.isEmpty())
     {
         cout << st.top() << "\n";
